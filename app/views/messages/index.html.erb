@@ -1,0 +1,12 @@
+<h1>Messages</h1>
+
+<div id='chat'>
+	<% @messages.each do |message| %>
+		<%= render 'messages/message', message: message  %>
+	<% end %>
+</div>
+
+<%= render 'messages/form' %>
+
+
+<%= subscribe_to "/messages/new" %>
