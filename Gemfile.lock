@@ -81,7 +81,7 @@ GEM
     polyglot (0.3.5)
     private_pub (1.0.3)
       faye
-    rack (1.5.2)
+    rack (1.5.5)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.1)
